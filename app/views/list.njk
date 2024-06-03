@@ -1,0 +1,39 @@
+{% extends "govuk/template.njk" %}
+
+{% block head %}
+  <link href="/assets/style.css" rel="stylesheet">
+{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+
+  <div class="questions">
+    {% for question in fileData.pages %}
+    <div class="question">
+      <span class="govuk-caption-m">Question {{loop.index}}</span>
+      <h3 class="govuk-heading-m">{{question.question_text}}</h3>
+
+      <p class="govuk-body">ID: {{question.id}}</p>
+      <p class="govuk-body">Hint: {{question.hint_text}}</p>
+      <p class="govuk-body">Type: {{question.answer_type}}</p>
+      <p class="govuk-body">Settings: {{question.answer_settings.input_type}}</p>
+      <p class="govuk-body">Needs routing: {{question.needs_routing}}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
+
+{% block bodyEnd %}
+  {# Run JavaScript at end of the <body>, to avoid blocking the initial render. #}
+  <script type="module" src="/assets/govuk-frontend.min.js"></script>
+  <script type="module">
+    import { initAll } from '/assets/govuk-frontend.min.js'
+    initAll()
+  </script>  
+{% endblock %}
