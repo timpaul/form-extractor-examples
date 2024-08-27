@@ -7629,6 +7629,9 @@ pre {
   width: 100%;
   max-width: 200px;
 }
+.form-list .form-meta {
+  display: block;
+}
 
 .json-wrapper {
   margin: 25px -13px;

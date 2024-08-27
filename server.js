@@ -69,8 +69,25 @@ const port = 3001;
 
 /* Render home page */
 app.get('/', (req, res) => {
-  const formList = fs.readdirSync('./public/results').filter((item) => item.startsWith("form-"));
-  res.locals.formList = formList;
+
+  // Get list of form directories
+  const formDirs = fs.readdirSync('./public/results').filter((item) => item.startsWith("form-"));
+
+  // Create JSON summary of all the forms
+  const formData = JSON.parse('{"forms":[]}');
+  for(const formDir of formDirs){
+    const formId = formDir.slice(5); // Remove 'form-'
+    const fileData = loadFileData(formId);
+    formData.forms.push({
+      "formId": formId,
+      "filename": fileData.filename,
+      "model": fileData.model,
+      "size": fileData.formStructure.length
+    });
+  };
+
+  // Pass JSON summary to home page
+  res.locals.formData = formData;
   res.render('index.njk')
 })
 

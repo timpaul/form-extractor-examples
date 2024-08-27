@@ -29,30 +29,29 @@
   <div class="govuk-grid-row">
   <div class="govuk-grid-column-one-half">
 
-
-  
-
   <h3 class="govuk-heading-s">What is this?</h2>
 
   <p class="govuk-body">This is a library of examples of forms that have been extracted from PDFs and images using this Form extractor prototype.</p>
 
-
-
   </div>
-  <div class="govuk-grid-column-one-half">
+  </div>
+
+
 
 
   <ul class="govuk-list form-list">
-  {% for form in formList %}
+  {% for form in formData.forms %}
     <li>
-      <a href="/results/{{form}}/1">
-        <img src="/results/{{form}}/page.1.jpeg" />
+      <a href="/results/form-{{form.formId}}/1">
+        <img src="/results/form-{{form.formId}}/page.1.jpeg" />
       </a>
+      <ul class="govuk-list govuk-body-s">
+        <li class="form-meta"><em>{{form.filename}}</em></li>
+        <li class="form-meta">{{form.size}} pages, {{form.model}}</li>
+      </ul>
     </li>
   {% endfor %}
   </ul>
-  </div>
-  </div>
 
 
 {% endblock %}
