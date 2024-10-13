@@ -3,11 +3,7 @@ import fs from "fs";
 import bodyParser from 'body-parser';
 import express from 'express';
 import nunjucks from 'nunjucks';
-import Anthropic from '@anthropic-ai/sdk';
-import OpenAI from 'openai';
 import fetch from 'node-fetch';
-import { fromPath } from "pdf2pic";
-import multer from 'multer';
 import { performance } from 'perf_hooks';
 
 
