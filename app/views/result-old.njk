@@ -1,5 +1,21 @@
-{% extends "base.njk" %}
+{% extends "govuk/template.njk" %}
 {% set filePages = fileData.formStructure.length %}
+
+{% block head %}
+  <link href="/assets/style.css" rel="stylesheet">
+{% endblock %}
+
+{% block header %}
+  {{ govukHeader({
+    serviceName: "Form extractor examples",
+    serviceUrl: "#",
+    useTudorCrown: true
+  }) }}
+{% endblock %}
+
+{% block beforeContent %}
+  {% include "breadcrumbs.njk" %}
+{% endblock %}
 
 {% block content %}
 
@@ -8,14 +24,7 @@
   {% from "govuk/components/tabs/macro.njk" import govukTabs %}
 
 
-
-  <!--{% include "breadcrumbs.njk" %}-->
-
-<div class="govuk-grid-row results-page">
-  <div class="govuk-grid-column-full">
-    <h1>{{fileData.filename}}</h1>
-  </div>
-
+<div class="govuk-grid-row">
   <div class="govuk-grid-column-one-half">
 
   <h2 class="govuk-heading-m">Original file</h2>
@@ -82,6 +91,9 @@
   </div>
 </div>
 
+{% endblock %}
+
+{% block bodyEnd %}
   {# Run JavaScript at end of the <body>, to avoid blocking the initial render. #}
   <script type="module" src="/assets/govuk-frontend.min.js"></script>
   <script type="module">

@@ -1,0 +1,75 @@
+{% extends "govuk/template.njk" %}
+
+{% block head %}
+  <link href="/assets/style.css" rel="stylesheet">
+{% endblock %}
+
+
+  {% block header %}
+
+  <!--
+    {{ govukHeader({
+      serviceName: "Form extractor examples",
+      serviceUrl: "#",
+      useTudorCrown: true
+    }) }} -->
+
+    <p> Tim Paul</p>
+  {% endblock %}
+
+{% block beforeContent %}
+  {% include "breadcrumbs.njk" %}
+{% endblock %}
+
+  {% block content %}
+
+  {% from "govuk/components/input/macro.njk" import govukInput %}
+  {% from "govuk/components/button/macro.njk" import govukButton %}
+  {% from "govuk/components/tabs/macro.njk" import govukTabs %}
+
+
+  
+
+  <div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-half">
+
+  <h3 class="govuk-heading-s">What is this?</h2>
+
+  <p class="govuk-body">This is a library of examples of forms that have been extracted from PDFs and images using this Form extractor prototype.</p>
+
+  </div>
+  </div>
+
+
+
+
+  <ul class="govuk-list form-list">
+  {% for form in formData.forms %}
+    <li>
+      <a href="/results/form-{{form.formId}}/1">
+        <img src="/results/form-{{form.formId}}/page.1.jpeg" />
+      </a>
+      <ul class="govuk-list govuk-body-s">
+        <li class="form-meta"><em>{{form.filename}}</em></li>
+        <li class="form-meta">{{form.size}} pages, {{form.model}}</li>
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+
+
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}
+
+{% block bodyEnd %}
+  {# Run JavaScript at end of the <body>, to avoid blocking the initial render. #}
+  <script type="module" src="/assets/govuk-frontend.min.js"></script>
+  <script type="module">
+    import { initAll } from '/assets/govuk-frontend.min.js'
+    initAll()
+  </script>  
+  <script src="/assets/scripts.js"></script>
+{% endblock %}

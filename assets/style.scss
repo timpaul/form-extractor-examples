@@ -74,6 +74,7 @@ pre {
   height: 662px;
   overflow: auto;
   margin-top: -5px;
+  margin-bottom: 60px;
 }
 .extracted-form {
   border: 0px;
@@ -196,5 +197,17 @@ pre {
 	}
 	.govuk-header__navigation-list[hidden]{
 		display: block;
+	}
+}
+
+.prototype-banner{
+	background: govuk-colour("yellow");
+	margin: 0;
+	.govuk-body{
+		margin: 0;
+		padding: 0.5em;
+	}
+	.govuk-link{
+		color: $govuk-text-colour;
 	}
 }

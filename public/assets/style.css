@@ -7547,6 +7547,7 @@ pre {
   height: 662px;
   overflow: auto;
   margin-top: -5px;
+  margin-bottom: 60px;
 }
 
 .extracted-form {
@@ -7653,6 +7654,18 @@ pre {
 }
 .new-tab .govuk-header__navigation-list[hidden] {
   display: block;
+}
+
+.prototype-banner {
+  background: #ffdd00;
+  margin: 0;
+}
+.prototype-banner .govuk-body {
+  margin: 0;
+  padding: 0.5em;
+}
+.prototype-banner .govuk-link {
+  color: #0b0c0c;
 }
 
 /*# sourceMappingURL=style.css.map */
