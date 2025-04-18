@@ -8161,4 +8161,8 @@ pre {
   }
 }
 
+.govuk-template__body {
+  background-color: var(--lightgray);
+}
+
 /*# sourceMappingURL=style.css.map */

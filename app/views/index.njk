@@ -2,7 +2,14 @@
 
 {% block content %}
 
+<main style="max-width: 33rem">
+      <p class="post-tag"><a href="http://www.timpaul.co.uk">Tim Paul</a> <a href="/" class="govuk-breadcrumbs__list-item">Form extractor examples</a></p>
+
 <h1>Form extractor examples</h1>
+
+<p>Here are some examples of the results you can get from using the <a href="https://www.timpaul.co.uk/posts/using-ai-to-generate-web-forms-from-pdfs/">Form Extractor</a> tool I developed. You'll see both what it can do well and what it fails at.</p>
+
+<br>
 
 {% for form in formData.forms %}
 
@@ -14,7 +21,6 @@
       <h3 class="govuk-!-margin-top-0 govuk-!-margin-bottom-0">{{form.formTitle}}</h3>
     </a>
     <ul style="list-style: none">
-      <!--<li><em>{{form.filename}}</em></li>-->
       <li>{{form.size}} page form</li>
     </ul>
 </div>  
@@ -23,5 +29,7 @@
 
 <hr class="clear-left">
 <p class="post-tag"><a href="/">Tim Paul</a></p>
+
+</main>
 
 {% endblock %}
