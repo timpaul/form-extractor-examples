@@ -1,0 +1,143 @@
+{
+  "filename": "CH2_English_online.pdf",
+  "formTitle": "Child Benefit Claim Form",
+  "model": "Gemini",
+  "formStructure": [
+    1,
+    18,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "pages": [
+    {
+      "answer_type": "information_page",
+      "id": 1,
+      "question_text": "Claim online",
+      "information": "HM Revenue\n& Customs\n\nChild Benefit claim form\n\nYou can use the online service to claim Child Benefit or add another child to an existing claim.\n\nIt's quick and easy to claim online, or through the HMRC app, and you could get your first payment in as little as 3 days.\n\nTo claim online, go to www.gov.uk/claim-child-benefit\n\nYou can view and manage your claim quickly and easily by downloading the HMRC app.\n\nIf we need you to send us more information, we'll let you know.\n\nIf you cannot claim online, fill in this form and send it to us.\n\nIs your or your partner's income more than £60,000?\n\nIf either you or your partner has an individual Adjusted Net Income (ANI) of more than £60,000, the person with the higher income may have to pay a tax charge on some or all of the Child Benefit you get. It's called the High Income Child Benefit Charge.\n\nANI is an individual's total taxable income, including any taxable benefits before any Personal Allowances and minus certain tax reliefs.\n\nYou must check if your or your partner's individual ANI is more than £60,000, every year you claim Child Benefit - to ensure you pay the correct tax charge.\n\nYou can find out more, including how much you may have to pay at www.gov.uk/child-benefit-tax-charge\n\nYou may decide not to get Child Benefit payments, in which case the tax charge will not apply. It's still important that you claim Child Benefit to protect your State Pension (you'll get National Insurance credits until your child turns 12) and help your child get their National Insurance number automatically at 16.\n\nHow the tax charge works\n\nYou and your partner both have an individual income of less than £60,000\n\nYou will not need to pay the tax charge unless your income or your partner's income goes over £60,000 in any year in the future\n\nThe person with the highest income has income between £60,000 and £80,000\n\nThe Child Benefit you or your partner get will be more than the tax charge. The person with the higher income must notify HMRC and pay the tax charge each year by registering for Self Assessment. Or you can decide not to get Child Benefit Payments\n\nThe person with the highest income has income of more than £80,000\n\nThe Child Benefit you or your partner get will be the same as the tax charge. You can decide not to get the Child Benefit payments. Or the person with the higher income must notify HMRC and pay the tax charge each year by registering for Self Assessment\n\nYou should fill in and send us this form even if you decide not to get Child Benefit payments. If you do not want to get Child Benefit payments, answer 'no' to question 62\n\nHow to fill in this form\n\nYou need to:\n* answer all the questions that apply to you, writing clearly in capital letters\n* send us the documents we ask for to avoid delays to your claim\n\nWe can only backdate Child Benefit claims for up to 3 months. So even if you do not have all your documents, make your claim now and send us these as soon as you can.\n\nFor more information on Child Benefit, go to www.gov.uk/child-benefit\n\nFor help filling in this form, read the CH2 Notes, 'Child Benefit: Getting your claim right.\n\nDo not delay making your claim because Child Benefit can only be backdated up to 3 months"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 1,
+      "question_text": "Do you have a National Insurance number?",
+      "hint_text": "Read page 3 of the CH2 Notes.",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "text",
+      "id": 2,
+      "question_text": "Your title",
+      "hint_text": "For example Mrs, Miss, Ms, Mr or Dr",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "name",
+      "id": 3,
+      "question_text": "Your last name or family name",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "name",
+      "id": 4,
+      "question_text": "Your first name and any middle names",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 5,
+      "question_text": "Have you ever been known by any other last names or family names including your maiden name?",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "date",
+      "id": 6,
+      "question_text": "Your date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      },
+      "needs_routing": false
+    },
+    {
+      "answer_type": "address",
+      "id": 7,
+      "question_text": "Your address",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 8,
+      "question_text": "Have you lived at this address for more than 12 months?",
+      "needs_routing": true
+    },
+    {
+      "answer_type": "address",
+      "id": 9,
+      "question_text": "Tell us your last address",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "phone_number",
+      "id": 10,
+      "question_text": "Your mobile number or landline if you do not have a mobile",
+      "hint_text": "We may contact you about your claim. Our number may not show up if we call you.",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "text",
+      "id": 10,
+      "question_text": "What time of day is best for us to phone you?",
+      "hint_text": "For example, morning, afternoon or evening (we're only able to call up to 8pm).",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "text",
+      "id": 11,
+      "question_text": "What is your nationality?",
+      "hint_text": "This is shown on your passport if you have one, for example, British, Irish, French, Polish.",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 12,
+      "question_text": "Have you claimed Child Benefit for any children before?",
+      "needs_routing": true
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 13,
+      "question_text": "Are you currently entitled to or receiving Child Benefit?",
+      "needs_routing": true
+    },
+    {
+      "answer_type": "name",
+      "id": 13,
+      "question_text": "Child's last name",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "name",
+      "id": 13,
+      "question_text": "Child's first name",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "name",
+      "id": 13,
+      "question_text": "Child's middle names",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "date",
+      "id": 13,
+      "question_text": "Child's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      },
+      "needs_routing": false
+    }
+  ]
+}

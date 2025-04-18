@@ -1,0 +1,489 @@
+{
+  "filename": "Application_for_Defra_approval_of_a_disinfectant__DDA1__5.pdf",
+  "url": "https://www.gov.uk/government/publications/defra-approved-disinfectant-application",
+  "formTitle": "Application for Defra approval of a disinfectant (DDA1)",
+  "formStructure": [
+    4,
+    6,
+    9,
+    5,
+    5,
+    8,
+    9,
+    4,
+    1,
+    9,
+    13
+  ],
+  "pages": [
+    {
+      "answer_type": "information_page",
+      "id": 1,
+      "question_text": "Application for Defra approval of a disinfectant (DDA1)",
+      "information": "Official - Sensitive - Commercial (once completed by the applicant)\n\nAnimal & Plant Health Agency\n\n(a) Application for Defra approval of a disinfectant (DDA1)\n\nApproval under The Diseases of Animals (Approved Disinfectants) (England) Order 2007 No. 448 (as amended), for the purposes of The Animal Health Act 1981 (as amended)\n\n(i) APHA office use only\n\nDate received\n\nSigned\n\nReference\n\n(ii) When to use this form\n\nUse this form if you manufacture a disinfectant and want to:\n\n*   submit your disinfectant for efficacy testing, for the purpose of Defra disinfectant approval\n\n*   apply for your approved disinfectant to be sold under another trade name (a 'back-to-back' approved trade name)\n\n*   apply for the biennial renewal of your disinfectant's Defra approval\n\nPage 1 of 11 Application for Defra approval of a disinfectant (DDA1 version 4 December 2024)"
+    },
+    {
+      "answer_type": "date",
+      "id": 2,
+      "question_text": "Date received"
+    },
+    {
+      "answer_type": "text",
+      "id": 3,
+      "question_text": "Signed"
+    },
+    {
+      "answer_type": "text",
+      "id": 4,
+      "question_text": "Reference"
+    },
+    {
+      "answer_type": "information_page",
+      "id": 1,
+      "question_text": "Official - Sensitive - Commercial (once completed by the applicant)\nBefore submitting an application, read the guidance notes on how to fill out this form.\nApplications are voluntary. You do not need Defra approval to place a disinfectant on the market.",
+      "information": "Official - Sensitive - Commercial (once completed by the applicant)\n\nBefore submitting an application, read the guidance notes on how to fill out this form.\n\nApplications are voluntary. You do not need Defra approval to place a disinfectant on the market."
+    },
+    {
+      "answer_type": "information_page",
+      "id": 2,
+      "question_text": "(iii) How to submit this form\nTo submit your application, email this completed form and your product's material safety data sheet (MSDS) to Defra Disinfectants Approvals Administration at APРНА:\ndisinfectant@apha.gov.uk.\nIf you have any questions or need to post your form, email disinfectant@apha.gov.uk.\nWe aim to reply within 5 working days.\nPlease do not send any samples until APHA requests them. Also, do not send this form in the post along with your samples.",
+      "information": "(iii) How to submit this form\n\nTo submit your application, email this completed form and your product's material safety data sheet (MSDS) to Defra Disinfectants Approvals Administration at APРНА: disinfectant@apha.gov.uk.\n\nIf you have any questions or need to post your form, email disinfectant@apha.gov.uk.\n\nWe aim to reply within 5 working days.\n\nPlease do not send any samples until APHA requests them. Also, do not send this form in the post along with your samples."
+    },
+    {
+      "answer_type": "information_page",
+      "id": 3,
+      "question_text": "(iv) Section 1: Manufacturer details\nIn this section, include details of the manufacturer.\nTo fill out this section, you must be either:\n*   an employee of the company that owns the formulation of the product you want APHA to test\n*   a third-party consultant commissioned by the manufacturer or owner of the formulation\nTo safeguard information about your product, APHA will send all correspondence to the contact listed in this section. If there is anyone else APHA can communicate with, send their details as soon as possible to Defra Disinfectants Approvals Administration at APHA: disinfectant@apha.gov.uk.",
+      "information": "(iv) Section 1: Manufacturer details\n\nIn this section, include details of the manufacturer.\n\nTo fill out this section, you must be either:\n\n*   an employee of the company that owns the formulation of the product you want APHA to test\n\n*   a third-party consultant commissioned by the manufacturer or owner of the formulation\n\nTo safeguard information about your product, APHA will send all correspondence to the contact listed in this section. If there is anyone else APHA can communicate with, send their details as soon as possible to Defra Disinfectants Approvals Administration at APHA: disinfectant@apha.gov.uk."
+    },
+    {
+      "answer_type": "text",
+      "id": 4,
+      "question_text": "1.1 Company name"
+    },
+    {
+      "answer_type": "text",
+      "id": 5,
+      "question_text": "1.2 Employee or consultant name"
+    },
+    {
+      "answer_type": "address",
+      "id": 6,
+      "question_text": "1.3 Address of company, including postcode"
+    },
+    {
+      "answer_type": "address",
+      "id": 1,
+      "question_text": "Address of manufacturing site, including postcode (if different to the address of company)"
+    },
+    {
+      "answer_type": "phone_number",
+      "id": 2,
+      "question_text": "Telephone number (including international dialling code, if applicable)"
+    },
+    {
+      "answer_type": "email",
+      "id": 3,
+      "question_text": "Email address"
+    },
+    {
+      "answer_type": "number",
+      "id": 4,
+      "question_text": "Company's VAT number"
+    },
+    {
+      "answer_type": "text",
+      "id": 5,
+      "question_text": "Parent product name",
+      "hint_text": "This must be unique within the Defra list of approved disinfectants"
+    },
+    {
+      "answer_type": "text",
+      "id": 6,
+      "question_text": "Physical form in which the disinfectant is to be tested and sold",
+      "hint_text": "Enter either liquid, gel, powder or tablet."
+    },
+    {
+      "answer_type": "text",
+      "id": 7,
+      "question_text": "Batch number of the disinfectant sample",
+      "hint_text": "Sections 2.3 to 2.5 can be left blank when submitting this form and the sample details confirmed at a later date."
+    },
+    {
+      "answer_type": "date",
+      "id": 8,
+      "question_text": "Date the sample was manufactured"
+    },
+    {
+      "answer_type": "date",
+      "id": 9,
+      "question_text": "Expiry date of the disinfectant sample"
+    },
+    {
+      "answer_type": "information_page",
+      "id": 1,
+      "question_text": "Official - Sensitive - Commercial (once completed by the applicant)",
+      "information": "Official - Sensitive - Commercial (once completed by the applicant)\n\n2.6 Storage instructions\nHow the sample should be stored. For example, 'at room temperature', 'kept cool' or 'in the dark'.\n\n2.7 Directions for use\nHow your customers should use the product.\n\n2.8 Proposed use\nThe intended use of the product. Defra approves disinfectants for use on inanimate surfaces only. For topical application products, consult the Health and Safety Executive or Veterinary Medicines Directorate for advice.\n\n2.9 Product composition\nState the precise formulation of the product you want APHA to test. Use one line for each substance. Include dyes and perfumes.\n\nYou must include all substances in the product and state all percentages to 4 decimal places. The percentages of substances used in your product must total 100%.\n\nGive the percentage purity of each raw material and the percentage of this raw material in your product. Do not correct for purity.\nFor example, you might use a 90% strength iodine. Your product might then be made up of 5% of this iodine plus 95% water. Give these percentages in the relevant columns of the form.\nFor the iodine, you would write:\n*   Substance: lodine\n*   Percentage of active biocide in this substance: 90% pure\n*   Percentage of substance used in your product: 5%"
+    },
+    {
+      "answer_type": "text",
+      "id": 2,
+      "question_text": "Substance",
+      "hint_text": "CAS number",
+      "options": [
+        {
+          "text": "Percentage of active biocide in this substance"
+        },
+        {
+          "text": "Percentage of substance used in your product"
+        },
+        {
+          "text": "Active biocide or inert (non-biocidal) substance"
+        }
+      ]
+    },
+    {
+      "answer_type": "text",
+      "id": 3,
+      "question_text": "Substance"
+    },
+    {
+      "answer_type": "text",
+      "id": 4,
+      "question_text": "Substance"
+    },
+    {
+      "answer_type": "text",
+      "id": 5,
+      "question_text": "Substance"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 1,
+      "question_text": "I confirm the substances listed in the above table total 100%",
+      "hint_text": "Signed"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 2,
+      "question_text": "Have you submitted any additional information with this application?",
+      "hint_text": "Type yes or no"
+    },
+    {
+      "answer_type": "text",
+      "id": 3,
+      "question_text": "Efficacy test",
+      "hint_text": "State the dilution in parts, such as 1 part disinfectant plus 50 parts of water.",
+      "options": [
+        {
+          "text": "Foot and mouth disease virus"
+        },
+        {
+          "text": "Swine vesicular disease virus"
+        },
+        {
+          "text": "Poultry diseases, avian influenza and influenza of avian origin in mammals:"
+        }
+      ]
+    },
+    {
+      "answer_type": "text",
+      "id": 4,
+      "question_text": "Dilution in parts (fill in this column)"
+    },
+    {
+      "answer_type": "text",
+      "id": 5,
+      "question_text": "Cost in pounds sterling (fill in this column)"
+    },
+    {
+      "answer_type": "text",
+      "id": 1,
+      "question_text": "single dilution",
+      "hint_text": "Official - Sensitive - Commercial (once completed by the applicant)"
+    },
+    {
+      "answer_type": "text",
+      "id": 2,
+      "question_text": "Poultry diseases, avian influenza and influenza of avian origin in mammals: triple dilution"
+    },
+    {
+      "answer_type": "text",
+      "id": 3,
+      "question_text": "Tuberculosis disease: single dilution"
+    },
+    {
+      "answer_type": "text",
+      "id": 4,
+      "question_text": "Tuberculosis disease: triple dilution"
+    },
+    {
+      "answer_type": "text",
+      "id": 5,
+      "question_text": "Other notifiable disease requirements: single dilution"
+    },
+    {
+      "answer_type": "text",
+      "id": 6,
+      "question_text": "Other notifiable disease requirements: triple dilution"
+    },
+    {
+      "answer_type": "number",
+      "id": 7,
+      "question_text": "State the total cost for all tests you are applying for, in pounds sterling. Include the administrative fee for new tests.",
+      "hint_text": "3.2 Total cost, including the administrative fee"
+    },
+    {
+      "answer_type": "text",
+      "id": 8,
+      "question_text": "4.1 Proposed new trade name",
+      "hint_text": "(vii) Section 4: Trade name approval (back-to-back approved trade names)\nLeave this section blank for new applications.\nYou must wait for efficacy tests on the parent product before requesting a back-to-back trade name approval.\nFill in this section if you have an approved disinfectant and wish to:\n* make it available under a different trade name\n* supply it to a distributor who will make it available under a different trade name\nThis is known as a 'back-to-back' approved trade name.\nThe disinfectant must be identical to the product originally tested and approved.\nIt is an offence to label and market a product as Defra approved unless the name has been added to the approved disinfectants list.\nIf you would like to apply for more than one back-to-back approved trade name, make copies of this section."
+    },
+    {
+      "answer_type": "text",
+      "id": 1,
+      "question_text": "Official - Sensitive - Commercial (once completed by the applicant)\nThis must be unique with the Defra list of approved disinfectants\nWrite it exactly as you would like it to appear on the list. For example, use upper or lower\ncase characters."
+    },
+    {
+      "answer_type": "organisation_name",
+      "id": 2,
+      "question_text": "4.2 Distributor company name"
+    },
+    {
+      "answer_type": "address",
+      "id": 3,
+      "question_text": "4.3 Distributor company address (including postcode)"
+    },
+    {
+      "answer_type": "name",
+      "id": 4,
+      "question_text": "4.4 Distributor company representative's name"
+    },
+    {
+      "answer_type": "email",
+      "id": 5,
+      "question_text": "4.5 Distributor company representative's email"
+    },
+    {
+      "answer_type": "phone_number",
+      "id": 6,
+      "question_text": "4.6 Distributor company representative's telephone number"
+    },
+    {
+      "answer_type": "text",
+      "id": 7,
+      "question_text": "4.7 Distributor company representative's signature"
+    },
+    {
+      "answer_type": "date",
+      "id": 8,
+      "question_text": "4.8 Date of signature"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "id": 9,
+      "question_text": "4.9 Have you supplied any additional information with this application?\nType yes or no."
+    },
+    {
+      "answer_type": "organisation_name",
+      "id": 1,
+      "question_text": "5.1 Company name",
+      "answer_settings": {}
+    },
+    {
+      "answer_type": "name",
+      "id": 2,
+      "question_text": "5.2 Applicant's name",
+      "answer_settings": {}
+    },
+    {
+      "answer_type": "date",
+      "id": 3,
+      "question_text": "5.3 Date of application",
+      "answer_settings": {}
+    },
+    {
+      "answer_type": "name",
+      "id": 4,
+      "question_text": "5.4 Applicant's signature",
+      "hint_text": "Add your signature electronically by typing your name. You do not need a wet signature.",
+      "needs_routing": false,
+      "options": []
+    },
+    {
+      "answer_type": "information_page",
+      "id": 1,
+      "question_text": "Official - Sensitive - Commercial (once completed by the applicant) If a disinfectant you manufacture or distribute is approved by Defra, the name and address you provide will be publicly available on the approved disinfectants list.",
+      "information": "Official - Sensitive - Commercial (once completed by the applicant)\n\nIf a disinfectant you manufacture or distribute is approved by Defra, the name and address you provide will be publicly available on the [approved disinfectants list](approved disinfectants list)."
+    },
+    {
+      "answer_type": "information_page",
+      "id": 1,
+      "question_text": "Labels",
+      "information": "If you are submitting disinfectant samples to APHA as part of this application, you must use these label templates for the inner and outer packaging.\n\nIf you fail to comply with these instructions and the legal requirements outlined in section 5, APHA will reject the samples and halt your application.\n\nPlease do not send this form in the post along with your samples. Read our guidance above on how to submit this form.\n\nIf your labels already comply\n\nIf you are submitting a market-ready container with labels and pictograms that already comply, contact Defra Disinfectants Approvals Administration at APHA for instructions on submitting samples:\n\nEmail: disinfectant@apha.gov.uk\n\nFor example, this may happen if your product is already listed and marketed as Defra approved and you want to apply for additional or further approval testing.\n\nOuter package label"
+    },
+    {
+      "answer_type": "address",
+      "id": 2,
+      "question_text": "Delivery address:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      },
+      "hint_text": "Bacteriology Department\nDefra Disinfectant Approvals (building 17)\nAnimal and Plant Health Agency\nWoodham Lane\nAddlestone\nSurrey\nKT15 3NB"
+    },
+    {
+      "answer_type": "text",
+      "id": 3,
+      "question_text": "Disinfectant Name"
+    },
+    {
+      "answer_type": "number",
+      "id": 4,
+      "question_text": "Batch Number"
+    },
+    {
+      "answer_type": "date",
+      "id": 5,
+      "question_text": "Expiry Date"
+    },
+    {
+      "answer_type": "number",
+      "id": 6,
+      "question_text": "Contents (sample volume)"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 7,
+      "question_text": "MSDS enclosed (tick)",
+      "options": [
+        {
+          "text": "MSDS enclosed (tick)"
+        }
+      ]
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 8,
+      "question_text": "Compliant with CLP Regulations (tick)",
+      "options": [
+        {
+          "text": "Compliant with CLP Regulations (tick)"
+        }
+      ]
+    },
+    {
+      "answer_type": "text",
+      "id": 9,
+      "question_text": "Signed:"
+    },
+    {
+      "answer_type": "text",
+      "id": 1,
+      "question_text": "Disinfectant Name"
+    },
+    {
+      "answer_type": "text",
+      "id": 2,
+      "question_text": "Batch Number"
+    },
+    {
+      "answer_type": "date",
+      "id": 3,
+      "question_text": "Expiry Date"
+    },
+    {
+      "answer_type": "text",
+      "id": 4,
+      "question_text": "Sender:"
+    },
+    {
+      "answer_type": "text",
+      "id": 5,
+      "question_text": "Company Name:"
+    },
+    {
+      "answer_type": "text",
+      "id": 6,
+      "question_text": "Contents: samples (tick to confirm tests required and sample volumes enclosed)"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 7,
+      "question_text": "FMDV",
+      "options": [
+        {
+          "text": "single"
+        },
+        {
+          "text": "triple"
+        }
+      ]
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 8,
+      "question_text": "SVDV",
+      "options": [
+        {
+          "text": "single"
+        },
+        {
+          "text": "triple"
+        }
+      ]
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 9,
+      "question_text": "DoP",
+      "options": [
+        {
+          "text": "single"
+        },
+        {
+          "text": "triple"
+        }
+      ]
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 10,
+      "question_text": "TB",
+      "options": [
+        {
+          "text": "single"
+        },
+        {
+          "text": "triple"
+        }
+      ]
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 11,
+      "question_text": "GO",
+      "options": [
+        {
+          "text": "single"
+        },
+        {
+          "text": "triple"
+        }
+      ]
+    },
+    {
+      "answer_type": "multiple_choice",
+      "id": 12,
+      "question_text": "MSDS enclosed (tick)",
+      "options": [
+        {
+          "text": "Compliant with CLP Regulations (tick)"
+        }
+      ]
+    },
+    {
+      "answer_type": "text",
+      "id": 13,
+      "question_text": "Signed:"
+    }
+  ]
+}

@@ -5,6 +5,8 @@ import express from 'express';
 import nunjucks from 'nunjucks';
 import fetch from 'node-fetch';
 import { performance } from 'perf_hooks';
+import { marked } from 'marked';
+import markdown from 'nunjucks-markdown';
 
 
 // === SET UP EXPRESS === //
@@ -25,7 +27,7 @@ const __dirname = path.dirname(__filename); // get the name of the directory
 
 app.use('/assets', express.static(path.join(__dirname, '/node_modules/govuk-frontend/dist/govuk/assets')))
 
-nunjucks.configure([
+var env = nunjucks.configure([
   'app/views',
   'node_modules/govuk-frontend/dist/'
 ],
@@ -39,6 +41,7 @@ app.set('view engine', 'html')
 app.use(express.json());
 app.use(express.static('public'));
 
+markdown.register(env, marked);
 
 // === THE USER INTERFACE === //
 
@@ -77,6 +80,7 @@ app.get('/', (req, res) => {
     formData.forms.push({
       "formId": formId,
       "filename": fileData.filename,
+      "formTitle": fileData.formTitle,
       "model": fileData.model,
       "size": fileData.formStructure.length
     });

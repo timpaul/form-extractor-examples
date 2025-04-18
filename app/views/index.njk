@@ -6,16 +6,17 @@
 
 {% for form in formData.forms %}
 
-<div class="form-example">
-  <h3>{{form.filename}}</h3>
-
-  <div class="form-thumb">
+<div class="form-example" style="width: 75%">
     <a href="/results/form-{{form.formId}}/1">
-      <img src="/results/form-{{form.formId}}/page.1.jpeg" />
+      <div class="form-thumb">
+          <img src="/results/form-{{form.formId}}/page.1.jpeg" />
+      </div>
+      <h3 class="govuk-!-margin-top-0 govuk-!-margin-bottom-0">{{form.formTitle}}</h3>
     </a>
-  </div>
-
-  <p class="form-meta">{{form.size}} pages, {{form.model}}</p>
+    <ul style="list-style: none">
+      <!--<li><em>{{form.filename}}</em></li>-->
+      <li>{{form.size}} page form</li>
+    </ul>
 </div>  
 
 {% endfor %}
