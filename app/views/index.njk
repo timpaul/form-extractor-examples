@@ -13,14 +13,14 @@
 
 {% for form in formData.forms %}
 
-<div class="form-example" style="width: 75%">
+<div class="form-example">
     <a href="/results/form-{{form.formId}}/1">
       <div class="form-thumb">
           <img src="/results/form-{{form.formId}}/page.1.jpeg" />
       </div>
-      <h3 class="govuk-!-margin-top-0 govuk-!-margin-bottom-0">{{form.formTitle}}</h3>
+      <strong>{{form.formTitle}}</strong>
     </a>
-    <ul style="list-style: none">
+    <ul style="list-style: none; margin: 10px">
       <li>{{form.size}} page form</li>
     </ul>
 </div>  
