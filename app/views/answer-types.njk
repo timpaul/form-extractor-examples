@@ -405,3 +405,33 @@
   items: options
 }) }}
 {% endmacro %}
+
+{# TABULAR QUESTION #}
+
+{% macro tabular(question, hint, headings) %}
+<div class="govuk-form-group">
+  <h1 class="govuk-label-wrapper">
+    <label class="govuk-label govuk-label--l" for="textarea">
+      {{ question }}
+    </label>
+  </h1>
+
+  <div id="textarea-hint" class="govuk-hint">
+    {{ hint }}
+  </div>
+
+  {% for heading in headings %}
+    {{ govukInput({
+    label: {
+      text: heading.text
+    },
+    id: "heading",
+    name: "heading"
+    }) }}
+  {% endfor %}
+</div>
+  {{ govukButton({
+  text: "Add another",
+  classes: "govuk-button--secondary"
+}) }}
+{% endmacro %}

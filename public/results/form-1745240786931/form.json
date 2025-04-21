@@ -1,0 +1,466 @@
+{
+  "filename": "v1-online-confidential-medical-information.pdf",
+  "formTitle": "Report your medical information",
+  "formStructure": [
+    27,
+    5,
+    7,
+    2,
+    7,
+    0
+  ],
+  "pages": [
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "IMPORTANT: Please answer the questions in BLOCK CAPITAL letters using BLACK INK.\nFailure to provide full information for yourself, GP or consultant may result in your case being delayed.",
+      "information": "IMPORTANT: Please answer the questions in BLOCK CAPITAL letters using BLACK INK.\n\nFailure to provide full information for yourself, GP or consultant may result in your case being delayed."
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Title:",
+      "answer_settings": {
+        "input_type": "full_name"
+      }
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Full name:",
+      "answer_settings": {
+        "input_type": "full_name"
+      }
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date of birth:"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Postcode:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email:"
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Contact number:"
+    },
+    {
+      "answer_type": "text_area",
+      "options": [],
+      "question_text": "Change of details",
+      "help_text": "If you have changed your contact information (address, name, email or contact number) since we last corresponded with\nyou, please provide the NEW details in the box below."
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "GP name:"
+    },
+    {
+      "answer_type": "organisation_name",
+      "options": [],
+      "question_text": "Surgery name:"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Town:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Postcode:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Contact number:"
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email:"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date last seen for this condition:",
+      "answer_settings": {
+        "input_type": "other_date"
+      }
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Consultant name:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Speciality:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Department:"
+    },
+    {
+      "answer_type": "organisation_name",
+      "options": [],
+      "question_text": "Hospital name:"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Town:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Postcode:",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Contact number:"
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email:"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date last seen for this condition:",
+      "answer_settings": {
+        "input_type": "other_date"
+      }
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Blepharospasm"
+        },
+        {
+          "text": "Diabetic Retinopathy (with laser treatment)"
+        },
+        {
+          "text": "Glaucoma"
+        },
+        {
+          "text": "Nyctalopia (Night Blindness)"
+        },
+        {
+          "text": "Retinitis Pigmentosa"
+        },
+        {
+          "text": "Double Vision (Diplopia) complete section 3"
+        },
+        {
+          "text": "Other vision condition(s):"
+        }
+      ],
+      "question_text": "What is your vision condition?",
+      "hint_text": "Tick all that apply",
+      "question_number": 1,
+      "table_headings": []
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "One"
+        },
+        {
+          "text": "Two"
+        }
+      ],
+      "question_text": "How many functioning eyes do you have?",
+      "help_text": "A 'functioning eye' means that you have sight in that eye.",
+      "question_number": 2,
+      "table_headings": []
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Both eyes"
+        },
+        {
+          "text": "Left eye"
+        },
+        {
+          "text": "Right eye"
+        }
+      ],
+      "question_text": "Which eye does your condition affect?",
+      "question_number": 3,
+      "table_headings": []
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes, in one eye"
+        },
+        {
+          "text": "Yes, in both eyes"
+        }
+      ],
+      "question_text": "Have you ever had laser treatment for an eye condition?",
+      "help_text": "Do not include surgery for long/short sightedness or cataracts",
+      "needs_routing": true,
+      "question_number": 4,
+      "table_headings": []
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "question_text": "If yes, have you told us about your most recent laser treatment?",
+      "question_number": 5,
+      "table_headings": []
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "question_text": "Has a consultant or eye specialist said you have a problem with your field of vision?",
+      "hint_text": "Do not include long or short sightedness",
+      "needs_routing": true,
+      "question_number": 2
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "question_text": "If yes, is your visual field problem caused solely by an eye condition?",
+      "needs_routing": true,
+      "question_number": 2
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Brain tumour"
+        },
+        {
+          "text": "Head injury"
+        },
+        {
+          "text": "Stroke"
+        },
+        {
+          "text": "Other (please specify)"
+        }
+      ],
+      "question_text": "If no, is your visual problem caused by any of the following?",
+      "question_number": 2
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "question_text": "Do you have double vision?",
+      "needs_routing": true,
+      "question_number": 3
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Patch / Prism / Frosted glasses / Lenses"
+        },
+        {
+          "text": "Other"
+        },
+        {
+          "text": "Not controlled"
+        }
+      ],
+      "question_text": "How is your double vision (diplopia) controlled?",
+      "question_number": 3
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "question_text": "Have you ever seen an eye specialist about your double vision (diplopia)?",
+      "question_number": 3
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "question_text": "Have you had contact (by phone, video, or face to face consultation) with your eye specialist about your double vision (diplopia) in the last 12 months?",
+      "question_number": 3
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "3.5 You must confirm you've read and understood the following information on double vision",
+      "information": "Information: double vision\n\nIt can take 3 months or more for you to adapt to driving wearing a patch, prism,\nfrosted glasses or lenses because:\n\n*   your ability to judge distances may be affected\n*   you may not be so aware of objects each side of you\n\nDo not drive until your doctor or optician advises you've fully adapted to wearing a\npatch, prism, frosted glasses, or lenses.\n\nI have double vision and confirm I've read and understood the above information (tick)"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes, with glasses or corrective lenses"
+        }
+      ],
+      "question_text": "Do you meet the minimum eyesight standard for driving?",
+      "help_text": "Minimum eyesight standard for driving\n\n1.  You must be able to read (with glasses or contact lenses, if necessary) a car\nnumber plate, made after 1 September 2001, from 20 metres.\n\n2.  You must not have been told by a doctor or optician that your eyesight is\ncurrently worse than 6/12 (decimal 0.5) on the Snellen scale",
+      "question_number": 4
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Applicant's authorisation",
+      "information": "You must fill in this section and must not alter it in any way. Please read the following information carefully and sign to confirm the statements below.\n\nImportant information about fitness to drive\n\n*   As part of the investigation into your fitness to drive, we (DVLA) may require you to have a medical examination and/or some form of practical assessment. If we do, the individuals involved in these will need your background medical details to carry out an appropriate assessment.\n\n*   These individuals may include doctors, orthoptists at eye clinics or paramedical staff at a driving assessment centre. We will only share information relevant to the medical assessment of your fitness to drive.\n\n*   Also, where the circumstances of your case appear to suggest the need for this, the relevant medical information may need to be considered by one or more of the members of the Secretary of State's Honorary Medical Advisory Panels. The membership of these Panels conforms strictly to the principle of confidentiality.\n\nFor information about how we process your data, your rights and who to contact, see our privacy notice at www.gov.uk/dvla/privacy-policy\n\nThis section must NOT be altered in any way.\n\nDeclaration\n\nI authorise my doctor, specialist or appropriate healthcare professional to disclose medical information or reports about my health condition to DVLA, on behalf of the Secretary of State for Transport, that is relevant to my fitness to drive.\n\nI understand that the doctor that I authorise may pass this authorisation to another registered healthcare professional, who will be able to provide information about my medical condition that is relevant to my fitness to drive.\n\nI understand that the Secretary of State may disclose such relevant medical information as is necessary to the investigation of my fitness to drive to doctors and other healthcare professionals such as orthoptists, paramedical staff and the Secretary of State for Transport's Honorary Medical Advisory panel members.\n\nI declare that I have checked the details I have given on the enclosed questionnaire and that, to the best of my knowledge and belief, they are correct.\n\nI understand that it is a criminal offence if I make a false declaration to obtain a driving licence and can lead to prosecution."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Signature:"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date:"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "question_text": "I authorise the Secretary of State to correspond with medical professionals by email."
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Email"
+        },
+        {
+          "text": "SMS (text)"
+        }
+      ],
+      "question_text": "If you would like to be contacted about your application by email or text message (SMS), please tick the appropriate boxes. If not, DVLA will continue to contact you by post."
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Email"
+        },
+        {
+          "text": "SMS (text)"
+        }
+      ],
+      "question_text": "If you would like to be contacted about your application by email or text message (SMS) by a healthcare professional acting on behalf of DVLA, please tick the appropriate boxes. If not, you'll be contacted by post."
+    }
+  ]
+}

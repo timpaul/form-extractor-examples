@@ -1,0 +1,832 @@
+{
+  "filename": "bb1-print.pdf",
+  "formTitle": "Bereavement benefits claim form",
+  "formStructure": [
+    1,
+    14,
+    7,
+    8,
+    9,
+    6,
+    9,
+    16,
+    15,
+    11,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "pages": [
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Bereavement benefits",
+      "information": "We have many different ways we can communicate with you\n\nIf you would like braille, British Sign Language, a hearing loop, translations, large print, audio or something else please tell us. You can find our contact details by searching for the relevant benefit on www.gov.uk\n\nYour claim for bereavement benefits\n\n*   Your benefit payments may be delayed if you do not\n\t- answer all the questions on this form that apply to you and your spouse or civil partner\n\t- send us all the documents we ask for.\n\nIf you cannot do this, get in touch with us straight away.\n\n*   Please tell us about any other personal details you think we should know about in Part 6. For instance, other names or recent previous addresses.\n\nOther organisations who might be able to help you\n\n*   Your local Citizens Advice Bureau.\n*   Cruse Bereavement Care offers emotional support to the bereaved. You can contact them on\n\tHelpline 0808 808 1677\n\tEmail helpline@cruse.org.uk\n\tWebsite www.cruse.org.uk\n\nThis organisation is not able to give advice on bereavement payments, other benefits or financial matters.\n\nHow DWP collects and uses information\n\nWhen we collect information about you we may use it for any of our purposes. These include:\n\n*   social security benefits and allowances\n*   child maintenance\n*   employment and training\n*   investigating and prosecuting tax credits offences\n*   private pensions policy and\n*   retirement planning.\n\nWe may get information about you from other parties for any of our purposes as the law allows to check the information you provide and improve our services. We may give information about you to other organisations as the law allows, for example to protect against crime.\n\nTo find out more about our purposes, how we use personal information for those purposes and your information rights, including how to request a copy of your information, please visit www.gov.uk/dwp/personal-information-charter"
+    },
+    {
+      "answer_type": "national_insurance_number",
+      "options": [],
+      "question_text": "National Insurance (NI) number",
+      "help_text": "You can find this on your National Insurance (NI) numbercard, letters from the Department for Work and Pensions or payslips."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "If you do not know your NI number, have you ever had one or used one at any time?"
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Surname or family name",
+      "hint_text": "Mr/Mrs/Miss/Ms",
+      "question_number": 1
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "All other names, in full"
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "All other surnames or family names you have been known by or are using now.",
+      "help_text": "Please include maiden name, all former married or civil partnership names and all changes of family name where appropriate."
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address"
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Home phone number"
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Mobile phone number"
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email address",
+      "help_text": "where we can contact you"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "personal"
+        },
+        {
+          "text": "private"
+        },
+        {
+          "text": "secure"
+        }
+      ],
+      "question_text": "Please confirm if this email address is"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      }
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Please send us your original birth certificate, if you have it. Do not send us a photocopy. But if you do not have your birth certificate, do not delay sending in this claim form. If you prefer, you can take your birth certificate to your Jobcentre Plus office. Take this form as well. They will sign this form to show that they have seen your certificate."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you sending your birth certificate with this form?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "We will send your birth certificate back to you as soon as we can."
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "What was the date of your marriage or civil partnership?\nIf you converted or changed your civil partnership into a marriage or married your civil partner, enter the date your marriage is treated as starting on.",
+      "help_text": "Please send us your original marriage or civil partnership certificate, if you have it. Do not send us a photocopy. But if you do not have your marriage or civil partnership certificate, do not delay sending in this claim form. If you prefer, you can take your marriage or civil partnership certificate to your Jobcentre Plus office. Take this form as well. They will sign this form to show that they have seen your certificate."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you sending your marriage or civil partnership certificate with this form?",
+      "help_text": "We will send your marriage or civil partnership certificate back to you as soon as we can."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Under what law/religion was the ceremony conducted?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Please tell us the country where your marriage or civil partnership took place."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Did your marriage end in divorce or has your civil partnership been dissolved?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you legally separated?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you, or have you been living with someone else as if you were married to them, or as if you are civil partners?",
+      "help_text": "Please tell us about this at Part 6."
+    },
+    {
+      "answer_type": "national_insurance_number",
+      "options": [],
+      "question_text": "Your spouse or civil partner's National Insurance (NI) number"
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Your spouse or civil partner's surname",
+      "answer_settings": {
+        "input_type": "full_name"
+      }
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Your spouse or civil partner's other names",
+      "answer_settings": {
+        "input_type": "full_name"
+      }
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address",
+      "hint_text": "if it was different from your address. If you do not know their address, write Not known."
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Your spouse or civil partner's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      }
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "What date did your spouse or civil partner die?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Did your spouse or civil partner die more than 3 months ago?",
+      "help_text": "Please tell us below why you did not claim earlier. If you need more space, please use Part 6."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Were they getting a State Pension or any other benefits?",
+      "help_text": "Please say which benefits."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes",
+          "value": "Please tell us about this."
+        }
+      ],
+      "question_text": "Did they pay NI contributions during the 2 years up to 5 April before they died?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes",
+          "value": "Please tell us about any employers they had during this period."
+        }
+      ],
+      "question_text": "Did they pay these contributions through an employer?"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Employer's name and address",
+      "help_text": "If you know that pay is dealt with at a different address, please give us this address and phone number."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Clock or payroll number",
+      "help_text": "If not known, tell us their job or department."
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date they started work for this employer"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date they stopped work for this employer"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes",
+          "value": "Please tell us about this."
+        }
+      ],
+      "question_text": "Were they self-employed?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Were they a member of HM Forces when they died?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes",
+          "value": "Please tell us their reference number. This is on any letters about their War Pension."
+        }
+      ],
+      "question_text": "Were they getting a War Pension when they died?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Do you think your spouse or civil partner died because of an accident at work, or because of a disease or illness connected with their work?",
+      "help_text": "May we get medical reports from their doctor and any hospital, if we need them?"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "We need to know about any time that your spouse or civil partner lived or worked outside the United Kingdom (UK). This is because if they paid into the social security scheme in another country, it may count towards your bereavement benefits. The United Kingdom is England, Scotland, Wales and Northern Ireland.\nPlease tell us about any time that they lived in\na country outside the UK, or\nthe Channel Islands, or\nthe Republic of Ireland.",
+      "information": "We need to know about any time that your spouse or civil partner lived or worked outside the United Kingdom (UK). This is because if they paid into the social security scheme in another country, it may count towards your bereavement benefits. The United Kingdom is England, Scotland, Wales and Northern Ireland.\n\nPlease tell us about any time that they lived in\n\n*   a country outside the UK, or\n*   the Channel Islands, or\n*   the Republic of Ireland."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Did your spouse or civil partner ever live outside the UK?\nIf they only ever lived in England, Scotland, Wales or Northern Ireland, tick No.",
+      "help_text": "Please go to Part 3.\nTell us about the time they spent outside the UK."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Which country or crown dependency did they live in?\nIf they lived in the Isle of Man, tell us here."
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "When did they live there?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "Do not know"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Do not know"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Did they pay into the social security scheme of the country they lived in?",
+      "help_text": "What was their social security reference number?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you expecting a child with your late spouse or civil partner?\nIf you are, you may be able to get extra benefit when the baby is born."
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "What date is the baby expected?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you entitled to any\nChild Benefit?",
+      "help_text": "If you fall into the High Income\nChild Benefit charge group and you:\nare entitled to Child Benefit but do\nnot receive it, please tick Yes and\ntell us the Child Benefit reference\nnumber\nhave not claimed Child Benefit,\nyou must do so for your claim for\na Widowed Parent's Allowance\nto be considered. If you fall into\nthis group please provide details\nof your dependant children or\nqualifying young person in the\nrest of Part 3."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Tell us the Child Benefit reference number.\nThis is on any letters sent to you about\nChild Benefit, or on a bank statement."
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "How much do you get each week?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you waiting to hear if you can\nget Child Benefit?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "When your spouse or civil partner\ndied, were they getting any Child\nBenefit for any children?",
+      "help_text": "If your late spouse or civil partner\nwas claiming Child Benefit and\nyou have not yet made a claim to\ntransfer it to your name, you must\ndo so, but please complete the rest\nof Part 3 and complete your claim\nfor bereavement benefits."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Tell us the Child Benefit reference number.\nThis is on any letters sent to them about\nChild Benefit, or on a bank statement."
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "How much did they get each week?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No",
+          "value": "no"
+        },
+        {
+          "text": "Yes",
+          "value": "yes"
+        }
+      ],
+      "question_text": "Do you have any children or qualifying young persons living permanently in your household who are dependent on you?\nWe use child to mean a person aged under 16 and qualifying young person to mean a person aged 16, 17, 18 or 19.",
+      "hint_text": "Tell us about these children or qualifying young persons below.",
+      "needs_routing": true
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's surname",
+      "hint_text": "1st child"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's other names"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      }
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, are you to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, was your spouse or civil partner to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's surname",
+      "hint_text": "2nd child"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's other names"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      }
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, are you to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, was your spouse or civil partner to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's surname",
+      "hint_text": "3rd child"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's other names"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      }
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, are you to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, was your spouse or civil partner to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's surname",
+      "hint_text": "4th child"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's other names"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      }
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, are you to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, was your spouse or civil partner to the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Which child is living with another person?",
+      "hint_text": "If a child is living with another person"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What relation, if any, is this other person to the child?"
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "How much do you send each week for the child?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Which child is in care?",
+      "hint_text": "If a child is in care"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "What is the name and address of the local authority caring for the child?"
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "How much do you send each week for the child?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Have you told us about any children who you are not a parent of?",
+      "help_text": "We use parent to include step- parents, parents by legal adoption and fathers and mothers of illegitimate children. If you need to tell us about more than one child, use the space in Part 6."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of the child."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Does one of their parents live at the same address as you?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What is their name?"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes",
+          "value": "Please tell us about this."
+        }
+      ],
+      "question_text": "Are you, or anyone else, entitled to any benefit or allowance for any of the children you have told us about?",
+      "help_text": "For example Guardian's Allowance. But tick No if you are just entitled to Child Benefit."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of the benefit or allowance"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Address of the office it comes from"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of the child it is for"
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "You"
+        },
+        {
+          "text": "Someone else",
+          "value": "Please say who."
+        }
+      ],
+      "question_text": "Who gets the benefit or allowance?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Benefit reference number"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes",
+          "value": "Please tell us about this."
+        }
+      ],
+      "question_text": "Are any of the children you have told us about getting any benefit or allowance?"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of the benefit or allowance"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Address of the office it comes from"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of the child it is for"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Benefit reference number"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Have you claimed bereavement benefits or Widow's Benefit before?",
+      "hint_text": "Tick Yes if you claimed but were turned down,",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Did you get bereavement benefits or Widow's Benefit?",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you getting any of these benefits or entitlements?",
+      "hint_text": "Tick Yes if you are waiting to hear about a benefit.",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of benefit",
+      "help_text": "Even if the benefit or entitlement is not listed here, tell us about it anyway. We will contact you if we need more information.\n* State Pension\n* Jobseeker's Allowance\n* Job Release Allowance\n* Income Support\n* Pension Credit\n* War Widow's Pension\n* Temporary Allowance for Widows, Widowers and Surviving Civil Partners\n* Employment and Support Allowance\n* Incapacity Benefit\n* Severe Disablement Allowance\n* Carer's Allowance\n* Reduced Earnings Allowance\n* Training Allowance\n* Unemployability Supplement paid because of\n    * a war disability due to service with HM Forces, or\n    * an industrial accident or disease\n* Guardian's Allowance\n* Armed Forces Compensation Scheme Guaranteed Income Payment\n* Universal Credit.",
+      "needs_routing": false
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference number",
+      "hint_text": "This is on any letters we have sent you about the benefit.",
+      "needs_routing": false
+    }
+  ]
+}

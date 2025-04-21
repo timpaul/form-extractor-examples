@@ -1,0 +1,1037 @@
+{
+  "filename": "CH2_English_online.pdf",
+  "formTitle": "Child benefit claim form",
+  "formStructure": [
+    4,
+    17,
+    14,
+    10,
+    15,
+    29,
+    13,
+    18,
+    2
+  ],
+  "pages": [
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Claim online",
+      "information": "You can use the online service to claim Child Benefit or add another child to an existing claim.\n\nIt's quick and easy to claim online, or through the HMRC app, and you could get your first payment in as little as 3 days.\n\nTo claim online, go to www.gov.uk/claim-child-benefit\n\nYou can view and manage your claim quickly and easily by downloading the HMRC app.\n\nIf we need you to send us more information, we'll let you know.\n\nIf you cannot claim online, fill in this form and send it to us."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Is your or your partner's income more than £60,000?",
+      "help_text": "If either you or your partner has an individual Adjusted Net Income (ANI) of more than £60,000, the person with the higher income\nmay have to pay a tax charge on some or all of the Child Benefit you get. It's called the High Income Child Benefit Charge.\nANI is an individual's total taxable income, including any taxable benefits before any Personal Allowances and minus certain\ntax reliefs.\n\nYou must check if your or your partner's individual ANI is more than £60,000, every year you claim Child Benefit\n- to ensure you pay the correct tax charge.\n\nYou can find out more, including how much you may have to pay at www.gov.uk/child-benefit-tax-charge\n\nYou may decide not to get Child Benefit payments, in which case the tax charge will not apply. It's still important that\nyou claim Child Benefit to protect your State Pension (you'll get National Insurance credits until your child turns 12)\nand help your child get their National Insurance number automatically at 16."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "How the tax charge works",
+      "information": "You and your partner both have an\nindividual income of less than £60,000\n\nYou will not need to pay the tax charge\nunless your income or your partner's\nincome goes over £60,000 in any year\nin the future\n\nThe person with the highest income has\nincome between £60,000 and £80,000\n\nThe Child Benefit you or your partner\nget will be more than the tax charge.\nThe person with the higher income must\nnotify HMRC and pay the tax\ncharge each year by registering for\nSelf Assessment. Or you can decide not\nto get Child Benefit Payments\n\nThe person with the highest income has\nincome of more than £80,000\n\nThe Child Benefit you or your partner\nget will be the same as the tax charge.\nYou can decide not to get the Child\nBenefit payments. Or the person with\nthe higher income must notify HMRC\nand pay the tax charge each year by\nregistering for Self Assessment\n\nYou should fill in and send us this form even if you decide not to get Child Benefit\npayments. If you do not want to get Child Benefit payments, answer 'no' to question 62"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "How to fill in this form",
+      "information": "You need to:\n\n*   answer all the questions that apply to you, writing clearly in capital letters\n*   send us the documents we ask for to avoid delays to your claim\n\nWe can only backdate Child Benefit claims for up to 3 months. So even if you do not have all your documents,\nmake your claim now and send us these as soon as you can.\n\nFor more information on Child Benefit, go to www.gov.uk/child-benefit\n\nFor help filling in this form, read the CH2 Notes, 'Child Benefit: Getting your claim right.\n\nDo not delay making your claim because Child Benefit can only be backdated up to 3 months"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Do you have a National Insurance number?",
+      "help_text": "Read page 3 of the CH2 Notes.",
+      "question_number": 1
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Your title",
+      "hint_text": "For example Mrs, Miss, Ms, Mr or Dr",
+      "question_number": 2
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Your last name or family name",
+      "question_number": 3
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Your first name and any middle names",
+      "question_number": 4
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Have you ever been known by any other last names or family names including your maiden name?",
+      "question_number": 5
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Your date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      },
+      "question_number": 6
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Your address",
+      "question_number": 7
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Have you lived at this address for more than 12 months?",
+      "needs_routing": true,
+      "question_number": 8
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Tell us your last address",
+      "question_number": 9
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Your mobile number or landline if you do not have a mobile",
+      "help_text": "We may contact you about your claim. Our number may not show up if we call you.",
+      "question_number": 10
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What is your nationality?",
+      "hint_text": "This is shown on your passport if you have one, for example, British, Irish, French, Polish.",
+      "question_number": 11
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Have you claimed Child Benefit for any children before?",
+      "needs_routing": true,
+      "question_number": 12
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you currently entitled to or receiving Child Benefit?",
+      "needs_routing": true,
+      "question_number": 13
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Child's last name"
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Child's first name"
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Child's middle names"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      }
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Have you always lived in the UK?",
+      "help_text": "By this we mean you've never lived outside the UK. Read page 3 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 14
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Do you usually live in the UK?",
+      "help_text": "Read page 3 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 15
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Which country do you usually live in?",
+      "question_number": 16
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Tell us the date you arrived in the UK",
+      "question_number": 17
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you subject to immigration control now, or have you been at any time in the last 6 months?",
+      "help_text": "Read page 3 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 18
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "If you've been subject to immigration control in the last 3 months, tell us the date your immigration status was granted",
+      "question_number": 19
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Looking for work in the UK"
+        },
+        {
+          "text": "Employed in the UK"
+        },
+        {
+          "text": "Self-employed in the UK"
+        },
+        {
+          "text": "None of these - I've enough money to support my family in the UK"
+        }
+      ],
+      "question_text": "What is your employment status?",
+      "hint_text": "Tick the box or boxes that apply.",
+      "needs_routing": false,
+      "question_number": 20
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Do you work in another country or receive benefit from another country, or have you at any time in the last 3 months?",
+      "needs_routing": true,
+      "question_number": 21
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Are you a member of HM Forces or a civil servant working abroad?",
+      "question_number": 22
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "Married or in a civil partnership, go to question 24"
+        },
+        {
+          "text": "Living with a partner as if you're married or a civil partner since go to question 24"
+        },
+        {
+          "text": "Widowed, go to question 34"
+        },
+        {
+          "text": "Separated since go to question 34"
+        },
+        {
+          "text": "Divorced, go to question 34"
+        },
+        {
+          "text": "Single, go to question 34"
+        }
+      ],
+      "question_text": "What is your marital or civil partnership status?",
+      "hint_text": "Tick one box that applies. We consider you single for Child Benefit purposes unless you live with a partner.",
+      "needs_routing": true,
+      "question_number": 23
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Your partner's full name",
+      "question_number": 24
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Your partner's date of birth",
+      "question_number": 25
+    },
+    {
+      "answer_type": "national_insurance_number",
+      "options": [],
+      "question_text": "Your partner's National Insurance number",
+      "help_text": "Read page 3 of the CH2 Notes.",
+      "question_number": 26
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Your partner's nationality",
+      "help_text": "This is shown on their passport if they have one, for example British, Irish, French, Polish.",
+      "question_number": 27
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Looking for work in the UK"
+        },
+        {
+          "text": "Employed in the UK"
+        },
+        {
+          "text": "Self-employed in the UK"
+        },
+        {
+          "text": "None of these - they have enough money to support their family in the UK"
+        }
+      ],
+      "question_text": "What is your partner's employment status?",
+      "hint_text": "Tick the box or boxes that apply.",
+      "question_number": 28
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Is your partner a member of HM Forces or a civil servant working abroad?",
+      "question_number": 29
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Does your partner now, or have they at any time in the last 3 months, worked in another country or received benefit from another country?",
+      "needs_routing": true,
+      "question_number": 30
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "If Yes, tell us the country"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Is your partner entitled to Child Benefit now or are they waiting to hear if they can get Child Benefit?",
+      "needs_routing": true,
+      "question_number": 31
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "What is the full name of the eldest child your partner is entitled to Child Benefit for?",
+      "answer_settings": {
+        "input_type": "full_name"
+      },
+      "question_number": 32
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "answer_settings": {
+        "input_type": "date_of_birth"
+      },
+      "question_number": 33
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Children you want to claim for",
+      "information": "You do not need to tell us about children you already get Child Benefit for.\n\n*Important information*\nIf this Child Benefit claim is for a newborn child, you should register their birth before you send your claim to us or a decision on your claim could be delayed.\nChild Benefit can be backdated for up to 3 months.\nDo not send us a birth certificate if either:\n*   the child's birth was registered in England, Wales or Scotland as we can check their birth information\n*   you or someone else has claimed for this child in the past\n\n*Documents we need*\nIf the child's birth was registered in Northern Ireland or outside the UK, send us a birth certificate for each child in this claim.\n\nIf your child is adopted, you should send us the adoption certificate.\n\nIf any child in this claim was born outside the UK we also need to see their passport(s) or their travel documents used to enter the UK.\n\nWe'll normally return your documents within 4 weeks.\nIf you do not send the documents we need with the claim form, a decision on your claim will be delayed."
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "How many children are you claiming for on this form?",
+      "question_number": 34
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Birth certificates - only send if the child's birth was registered in Northern Ireland or outside the UK"
+        },
+        {
+          "text": "Adoption certificates"
+        },
+        {
+          "text": "Passports"
+        },
+        {
+          "text": "Travel documents"
+        }
+      ],
+      "question_text": "How many original birth certificates, adoption certificates, passports and/or travel documents are you sending us?",
+      "help_text": "If you do not send original documents a decision on your claim may be delayed",
+      "question_number": 35
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's full name including last or family name\nAs shown on their birth or adoption certificate.",
+      "hint_text": "Child's last name",
+      "question_number": 36
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's first name",
+      "hint_text": "Child's first name"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's middle names",
+      "hint_text": "Child's middle names"
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "Male"
+        },
+        {
+          "text": "Female"
+        }
+      ],
+      "question_text": "Is this child male or female?",
+      "question_number": 37
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "question_number": 38
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "question_text": "Has this child's birth been registered in England, Wales\nor Scotland?",
+      "help_text": "If No, send the documents as shown on\npage 4 of this form - 'Documents we need'\nIf Yes, and they were born in England or Wales,\ndo not send any documents, tell us the 9 digit\nsystem number from the bottom left hand\ncorner of their birth certificate -\nread page 4 of the CH2 Notes\nIf Yes, and they were born in Scotland, do not\nsend any documents, tell us the district\nnumber, year and entry number from their\nbirth certificate - read page 4 of the CH2 Notes",
+      "question_number": 39
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Has this child ever been known by any other name?",
+      "help_text": "If Yes, tell us the other name",
+      "hint_text": "Child's other name.",
+      "question_number": 40
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Has the name been changed by deed poll?",
+      "question_number": 41
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "Birth child"
+        },
+        {
+          "text": "Adopted child"
+        },
+        {
+          "text": "Stepchild"
+        },
+        {
+          "text": "None of these"
+        }
+      ],
+      "question_text": "Is this child your:\nRead page 4 of the CH2 Notes.",
+      "question_number": 42
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Have you or anyone else ever claimed Child Benefit for\nthis child? Read page 4 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 43
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "What is the name and address of the person who\nclaimed Child Benefit for this child?",
+      "question_number": 44
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Does this child live with you in the UK?\nRead page 4 of the CH2 Notes.",
+      "help_text": "If No, tell us the name and address of the\nperson the child lives with",
+      "needs_routing": true,
+      "question_number": 45
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Has this child lived with anyone else at a different\naddress to you in the last 12 months?\nRead page 4 of the CH2 Notes.",
+      "help_text": "If Yes, tell us their name, address and\ntelephone number",
+      "needs_routing": true,
+      "question_number": 46
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "What date did the child come to live with you?",
+      "question_number": 47
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Are you adopting or planning to adopt this child\nthrough a local authority?",
+      "question_number": 48
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's full name including last or family name\nAs shown on their birth or adoption certificate.",
+      "answer_settings": {
+        "input_type": "full_name"
+      },
+      "question_number": 49
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's last name"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's first name"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's middle names"
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "Male"
+        },
+        {
+          "text": "Female"
+        }
+      ],
+      "question_text": "Is this child male or female?",
+      "question_number": 50
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Child's date of birth",
+      "question_number": 51
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Has this child's birth been registered in England, Wales\nor Scotland?",
+      "help_text": "If No, send the documents as shown on\npage 4 of this form - 'Documents we need'\nIf Yes, and they were born in England or Wales,\ndo not send any documents, tell us the 9 digit\nsystem number from the bottom left hand\ncorner of their birth certificate -\nread page 4 of the CH2 Notes\nIf Yes, and they were born in Scotland, do not\nsend any documents, tell us the district\nnumber, year and entry number from their\nbirth certificate - read page 4 of the CH2 Notes",
+      "question_number": 52
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Has this child ever been known by any other name?",
+      "help_text": "If Yes, tell us the other name",
+      "question_number": 53
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Child's other name"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Has the name been changed by deed poll?",
+      "question_number": 54
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "Birth child"
+        },
+        {
+          "text": "Adopted child"
+        },
+        {
+          "text": "Stepchild"
+        },
+        {
+          "text": "None of these"
+        }
+      ],
+      "question_text": "Is this child your:\nRead page 4 of the CH2 Notes.",
+      "question_number": 55
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Have you or anyone else ever claimed Child Benefit for\nthis child? Read page 4 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 56
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "What is the name and address of the person who\nclaimed Child Benefit for this child?",
+      "answer_settings": {
+        "input_type": "uk_address"
+      },
+      "question_number": 57
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Postcode"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Does this child live with you in the UK?\nRead page 4 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 58
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "If No, tell us the name and address of the\nperson this child lives with",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Postcode"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Has this child lived with anyone else at a different\naddress to you in the last 12 months?\nRead page 4 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 59
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "If Yes, tell us their name, address and\ntelephone number",
+      "answer_settings": {
+        "input_type": "uk_address"
+      }
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Postcode"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Telephone number"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "What date did the child come to live with you?",
+      "question_number": 60
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Are you adopting or planning to adopt this child\nthrough a local authority?",
+      "help_text": "If you want to claim for any more children, go to page 7\nof the CH2 Notes and fill in the 'Additional children' form",
+      "question_number": 61
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "4 Higher income earners",
+      "help_text": "Only answer question 62 if either you or your partner have an individual income of more than £60,000 a year.\nIf you or your partner have an individual income of:\n*   more than £80,000 a year - a tax charge equal to the Child Benefit payment will apply, so you may not want to be paid Child Benefit\n*   between £60,000 and £80,000 a year - a tax charge of less than the Child Benefit payment will apply, so you may want to be paid Child Benefit\n\nIf you're not sure if either you or your partner have an individual income of more than £60,000, read page 2 of the CH2 Notes.",
+      "information": "Only answer question 62 if either you or your partner have an individual income of more than £60,000 a year.\n\nIf you or your partner have an individual income of:\n\n*   more than £80,000 a year - a tax charge equal to the Child Benefit payment will apply, so you may not want to be paid Child Benefit\n*   between £60,000 and £80,000 a year - a tax charge of less than the Child Benefit payment will apply, so you may want to be paid Child Benefit\n\nIf you're not sure if either you or your partner have an individual income of more than £60,000, read page 2 of the CH2 Notes."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Do you want to be paid Child Benefit?",
+      "help_text": "Only answer this question if either you or your partner have an individual income of more than £60,000 a year. Read page 5 of the CH2 Notes.",
+      "needs_routing": true,
+      "question_number": 62
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "5 How you want to be paid",
+      "information": "5 How you want to be paid"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Do you want to be paid Child Benefit every week?",
+      "help_text": "We normally pay Child Benefit every 4 weeks into a bank or building society account.\nPage 5 of the CH2 Notes tells you if you can be paid every week.",
+      "needs_routing": true,
+      "question_number": 63
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "I am a single parent"
+        },
+        {
+          "text": "I or my partner receive one or more of the following:\n• Income Support\n• Income-based Jobseeker's Allowance\n• Pension Credit\n• Income-related Employment and Support Allowance\n• Universal Credit"
+        }
+      ],
+      "question_text": "To get Child Benefit paid every week tick all boxes which apply to you or your partner",
+      "question_number": 64
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Do you already get Child Benefit?",
+      "needs_routing": true,
+      "question_number": 65
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "6 Bank details",
+      "information": "6 Bank details"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "The account is in my name, go to question 67"
+        },
+        {
+          "text": "The account is in someone else's name - tell us the name of the account holder in the box below"
+        },
+        {
+          "text": "The account is in joint names - tell us the names of the account holders in the box below"
+        }
+      ],
+      "question_text": "Tick the box which applies to you",
+      "help_text": "Read page 5 of the CH2 Notes before filling in this section.\nWe can pay Child Benefit into an account that you nominate if the account is capable of receiving direct credit transfer, for example a suitable bank or building society account.",
+      "question_number": 66
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of the bank or building society",
+      "question_number": 67
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "The branch sort code. Read page 5 of the CH2 Notes.",
+      "question_number": 68
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "The account number. Read page 5 of the CH2 Notes.",
+      "question_number": 69
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "If the account is with a building society, tell us the roll or reference number if you have it Read page 5 of the CH2 Notes.",
+      "question_number": 70
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "If you do not have an account that we can pay into, put an X in this box",
+      "question_number": 71
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Documents we need",
+      "information": "If you're making a claim for a child you've not claimed for before, you need to send us:\n\n*   the birth certificate if their birth was registered in Northern Ireland or outside the UK\n*   the passport or travel documents used to enter the UK, if the child was not born in the UK\n*   the adoption certificate if you've adopted the child\n\nYou also need to send us any extra pages you've filled in if you want to claim for more than 2 children.\n\nIf you do not send all the documents we need with the claim form, a decision on your claim could be delayed, however your payments can be backdated to the date we receive your claim once our decision is made. You'll still need to send the documents as soon as you can after submitting your claim.\n\nMake sure we have the right address to return your documents. If you move without telling us your new address, we'll not be able to return your documents and we may destroy them. If we believe that any of the documents you send us are not genuine, we may keep them."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "What you need to do now",
+      "information": "After you've signed and dated the declaration below, return your form with any documents we need. If you do not have a pre-addressed envelope, send your form to:\n\nChild Benefit Office (GB)\nWashington\nNEWCASTLE UPON TYNE\nNE88 1ZD\n\nYou'll need a stamp for your envelope; make sure you pay the correct postage.\n\nIf you're sending us any documents you want returning, fill in the address label (CH3) and enclose with your claim form."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "What happens next",
+      "information": "We'll review your claim and write to tell you if you can get Child Benefit and how much you'll get. We'll normally return your documents within 4 weeks."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Help",
+      "information": "You can find more information online, go to GOV.UK and search for 'Child Benefit'.\n\nIf your circumstances have changed. go to GOV.UK and search for 'Report changes that affect your Child Benefit'.\n\nIf you cannot go online or need more help, you can call the Child Benefit helpline on 0300 200 3100.\n\nIf you're a Relay UK user - 18001 then 0300 200 3100.\n\nIf you're overseas - +44 161 210 3086.\n\nYou can also write to:\nHMRC Child Benefit Office\nPO Box 1\nNEWCASTLE UPON TYNE\nNE88 1AA\n\nYou'll need your National Insurance number if you call or write.\n\nFfoniwch 0300 200 1900 i dderbyn fersiynau Cymraeg o ffurflenni a chanllawiau."
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "I'm sending the birth certificates or other documents that you need with this form."
+        },
+        {
+          "text": "I understand if I do not send the documents you need with this claim form, a decision on my claim will be delayed."
+        },
+        {
+          "text": "I declare that the information I've given on this form is correct and complete. If I give information which I know is not correct or complete, you may take action against me. I'll tell you about changes to my circumstances when they happen and understand I could be overpaid and may have to pay money back if I do not."
+        }
+      ],
+      "question_text": "Declaration",
+      "hint_text": "Tick the boxes that apply to you and sign this form to claim Child Benefit."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Signature"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Corres"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Traced"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "CLI"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Documents returned"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Birth certificate"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Normal"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Passport"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Recorded"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Other"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Registered"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date claim received"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address label - fill in and send this back with your completed claim form.",
+      "answer_settings": {
+        "input_type": "uk_address"
+      },
+      "hint_text": "fill in your name and address above in block capitals using a black pen",
+      "information": ""
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "Birth certificate(s)",
+          "value": "birth_certificate"
+        },
+        {
+          "text": "Travel document(s)",
+          "value": "travel_document"
+        },
+        {
+          "text": "Other document(s)",
+          "value": "other_document"
+        },
+        {
+          "text": "Passport(s)",
+          "value": "passport"
+        },
+        {
+          "text": "Adoption certificate(s)",
+          "value": "adoption_certificate"
+        }
+      ],
+      "question_text": "Your documents",
+      "hint_text": "Thank you for sending us your claim form, I have enclosed your:",
+      "information": ""
+    }
+  ]
+}

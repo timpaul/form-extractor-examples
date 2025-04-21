@@ -1,5 +1,6 @@
 {% extends "govuk/template.njk" %}
 {% import "answer-types.njk" as answerType %}
+{% from "govuk/components/details/macro.njk" import govukDetails %}
 
 {% set questionJson = fileData.pages[questionIndex] %}
 
@@ -127,6 +128,9 @@
         {% elif questionJson.answer_type == "multiple_choice" %}
           {{ answerType.multiple_choice(questionJson.question_text, questionJson.hint_text, questionJson.options) }}
 
+        {% elif questionJson.answer_type == "tabular" %}
+          {{ answerType.tabular(questionJson.question_text, questionJson.hint_text, questionJson.table_headings) }}
+
         {% else %}
           <h1 class="govuk-heading-l">
             {{questionJson.question_text}}
@@ -136,6 +140,12 @@
 
       {% endif %}
 
+      {% if questionJson.help_text %}
+        {{ govukDetails({
+          summaryText: "Help with this question",
+          html: questionJson.help_text
+        }) }}
+      {% endif %}
       
       {% if fileData.pages.length - 1 == questionIndex %}
         {{ govukButton({

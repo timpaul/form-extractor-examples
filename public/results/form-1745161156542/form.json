@@ -1,0 +1,25 @@
+{
+  "filename": "hand-written.jpg",
+  "formTitle": "Hand written form",
+  "formStructure": [
+    3
+  ],
+  "pages": [
+    {
+      "answer_type": "name",
+      "question_text": "What is your name?",
+      "question_number": "1"
+    },
+    {
+      "answer_type": "date",
+      "question_text": "What is your date of birth?",
+      "hint_text": "For example 3 6 1976",
+      "question_number": "2"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "question_text": "Are you a Uk resident?",
+      "question_number": "3"
+    }
+  ]
+}
