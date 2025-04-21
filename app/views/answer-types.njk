@@ -4,6 +4,7 @@
 {% from "govuk/components/date-input/macro.njk" import govukDateInput %}
 {% from "govuk/components/radios/macro.njk" import govukRadios %}
 {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
 
 
 {# NAME #}
@@ -99,6 +100,37 @@
 {% endmacro %}
 
 
+{# TIME PERIOD #}
+
+{% macro time_period(question, hint) %}
+{{ govukDateInput({
+  id: "timePeriod",
+  namePrefix: "timePeriod",
+  fieldset: {
+    legend: {
+      text: question,
+      isPageHeading: true,
+      classes: "govuk-fieldset__legend--l"
+    }
+  },
+  hint: {
+    text: hint
+  },
+  items: [
+    {
+      name: "hours",
+      label: "Hours",
+      classes: "govuk-input--width-2"
+    },
+    {
+      name: "minutes",
+      label: "Minutes",
+      classes: "govuk-input--width-2"
+    }
+  ]
+}) }}
+{% endmacro %}
+
 
 {# NUMBER #}
 
@@ -160,6 +192,23 @@
 }) }}
 {% endmacro %}
 
+
+{# TEXT AREA #}
+
+{% macro text_area(question, hint) %}
+{{ govukTextarea({
+  name: "textarea",
+  id: "textarea",
+  label: {
+    text: question,
+    classes: "govuk-label--l",
+    isPageHeading: true
+  },
+  hint: {
+    text: hint
+  }
+}) }}
+{% endmacro %}
 
 
 {# NATIONAL INSURANCE NUMBER #}

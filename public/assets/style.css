@@ -7956,14 +7956,17 @@ pre {
 
 .form-image-container {
   border: 1px solid #b1b4b6;
-  height: 662px;
-  overflow: auto;
+  height: 560px;
+  overflow: hidden;
   margin-top: -5px;
   margin-bottom: 60px;
 }
 
 .extracted-form {
-  border: 0px;
+  border: 1px solid #b1b4b6;
+  padding: 5px 0 5px 5px;
+  margin-top: 54px;
+  height: 560px;
 }
 
 #form, #json, #list {

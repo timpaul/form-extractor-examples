@@ -56,7 +56,8 @@ a[href] {
   text-decoration-color: var(--black);
   text-underline-offset: 2px;
 }
-a[href]:visited {
+a[href]:visited,
+.govuk-link--no-visited-state:link {
   color: var(--black);
 }
 main a[href]:hover{

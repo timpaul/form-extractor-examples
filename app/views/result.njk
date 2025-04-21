@@ -2,7 +2,7 @@
 {% set filePages = fileData.formStructure.length %}
 
 {% block content %}
-<main>
+<main style="max-width: 40rem;">
       <p class="post-tag"><a href="http://www.timpaul.co.uk">Tim Paul</a> <a href="/" class="govuk-breadcrumbs__list-item">Form extractor examples</a></p>
 
   {% from "govuk/components/input/macro.njk" import govukInput %}
@@ -20,8 +20,6 @@
 
   <div class="govuk-grid-column-one-half">
 
-  <h2 class="govuk-heading-m">Original file</h2>
-
   {% include "doc-pagination.njk" %}
 
   <div class="form-image-container">
@@ -31,9 +29,7 @@
   </div>
   <div class="govuk-grid-column-one-half">
 
-  <h2 class="govuk-heading-m">Extracted form</h2>
 
-  {% set formHtml %}
 
   {% if fileData.formStructure[pageNum-1] == 0 %}
 
@@ -46,40 +42,6 @@
   <iframe class="extracted-form" id="formTabIframe" src="/forms/{{ formId }}/{{ pageNum }}/{{question}}" width="100%" height="648px" scrolling="auto"></iframe>
 
   {% endif %}
-
-  {% endset -%}
-  {% set listHtml %}
-  <iframe class="extracted-form" id="listTabIframe" src="/lists/{{ formId }}/{{ pageNum }}" width="100%" height="650px" scrolling="auto"></iframe>
-  {% endset -%}
-  {% set jsonHtml %}
-  <iframe class="extracted-form" id="jsonTabIframe" src="/json/{{ formId }}/{{ pageNum }}" width="100%" height="650px" scrolling="auto"></iframe>
-  {% endset -%}
-
-  {{ govukTabs({
-    items: [
-      {
-        label: "Form",
-        id: "form",
-        panel: {
-          html: formHtml
-        }
-      },
-      {
-        label: "List",
-        id: "list",
-        panel: {
-          html: listHtml
-        }
-      },
-      {
-        label: "JSON",
-        id: "json",
-        panel: {
-          html: jsonHtml
-        }
-      }
-    ]
-  }) }}
 
   </div>
 </div>
